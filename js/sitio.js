@@ -3,9 +3,9 @@
 /*----------------------------------
 Iniciamos smoothScroll (Scroll Suave)
 --------------------------------*/
-var scroll = new SmoothScroll('a[href*="#"]');
+var scroll = new smoothScroll('a[href*="#"]');
 
-SmoothScroll.init({
+smoothScroll.init({
     speed: 1000, // Integer. How fast to complete the scroll in milliseconds
     offset: 100, // Integer. How far to offset the scrolling anchor location in pixels
 
