@@ -1,10 +1,11 @@
-
+/*------------------------
+INICIAMOS WOW
+-------------------------*/
+new WOW().init();
 
 /*----------------------------------
 Iniciamos smoothScroll (Scroll Suave)
 --------------------------------*/
-var scroll = new SmoothScroll('a[href*="#"]');
-
 smoothScroll.init({
     speed: 1000, // Integer. How fast to complete the scroll in milliseconds
     offset: 100, // Integer. How far to offset the scrolling anchor location in pixels
